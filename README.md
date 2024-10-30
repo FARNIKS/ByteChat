@@ -25,7 +25,7 @@ Este es un proyecto de aplicación de chat en tiempo real utilizando **Spring Bo
    git clone https://github.com/tuusuario/tu-repo.git
    cd tu-repo
    ```
-2.Compila y Ejecuta el Proyecto:
+2. Compila y Ejecuta el Proyecto:
   ```
   ./mvnw spring-boot:run
   ```
