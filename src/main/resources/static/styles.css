@@ -1,0 +1,86 @@
+/* General */
+body {
+    background-color: #5c5c5c;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Ventana de chat */
+.chat-window {
+    background-color: #292f3f;
+    width: 350px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Título del chat */
+.chat-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', cursive; /* Estilo retro */
+}
+
+/* Mensajes */
+.chat-messages {
+    background-color: #292f3f;
+    padding: 15px;
+    border-radius: 15px;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 40px;
+}
+
+.list-group-item {
+    background-color: #3e4050;
+    color: #bdbec0;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Inputs y botones */
+#txtNombre, #txtMensaje {
+    background-color: #353747;
+    color: #e0e0e0;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+#txtNombre::placeholder, #txtMensaje::placeholder {
+    color: #b0b0b0;
+    
+}
+
+#btnEnviar {
+    background-color: #7066f6;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#btnEnviar:hover {
+    background-color: #5a50e6;
+}
+
+/* Scroll personalizado */
+.chat-messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+    background-color: #44475a;
+    border-radius: 30px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb:hover {
+    background-color: #5a5d6e;
+}
