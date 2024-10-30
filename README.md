@@ -26,9 +26,9 @@ Este es un proyecto de aplicación de chat en tiempo real utilizando **Spring Bo
    cd tu-repo
    ```
 2. Compila y Ejecuta el Proyecto:
-  ```
-  ./mvnw spring-boot:run
-  ```
+   ```
+     ./mvnw spring-boot:run
+   ```
 3. Accede a la Aplicación:
 - Abre un navegador y ve a `http://localhost:8080`.
 
